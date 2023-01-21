@@ -1,0 +1,128 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+  z-index: 1; /* Increase the z-index value to make the nav appear on top */
+  position: relative; /* Add position: relative to give the nav a z-index reference point */
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav ul {
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.nav ul li {
+list-style: none;
+flex: 1;
+}
+
+.nav ul li a {
+display: block;
+color: #fff;
+text-decoration: none;
+text-align: center;
+padding: 10px 0;
+}
+
+.nav ul li a:hover {
+background-color: gray;
+}
+section{
+  position: relative;
+  flex: 2;
+  width: 80%;
+  height: 230px;
+}
+.download-resume {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.download-resume:hover {
+  background-color: #333;
+}
+
+.contact-info {
+    position: relative;
+      padding-top: 10px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      position: absolute;
+      top: 0;
+      right: 0;
+}
+
+.contact-info ul li {
+display: inline-block;
+}
+
+.contact-info ul li a {
+  color:black;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+
+.contact-info ul li a:hover {
+  color: #c32865;
+}
+
+.contact-info ul li a.sep {
+  margin: 0 28px;
+  opacity: 0.3;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  display: block;
+  padding: 20px;
+  position: relative;
+  justify-content: flex-end;
+}
+img{
+  float: left;
+  border-radius: 50%;
+  width: 200px;
+}
+body {
+  display: block;
+  justify-content: space-between;
+  background-color:white;
+}
+.copy-right{
+  float: left;
+  position: absolute;
+}
+.copy-right p {
+  color:black;
+}
+.social-icon{
+    position: absolute;
+}
+.social-icons ul li {
+  list-style: none;
+  float: right;
+}
+
+.social-icons ul li a {
+    color:black;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover {
+    background: blue;
+    color: #fff;
+} 
+
