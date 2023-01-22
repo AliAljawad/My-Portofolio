@@ -125,15 +125,3 @@ body {
     background: blue;
     color: #fff;
 } 
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-/* Styles for screens smaller than 480px (commonly used for smartphones) */
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-}
